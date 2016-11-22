@@ -1,0 +1,20 @@
+header {
+  text-align: left;
+  background-color: #a4c6a1; }
+  header img {
+    width: 100%;
+    padding: 3em 0; }
+
+.table-section {
+  background-color: #f9f9f9; }
+  .table-section .col-md-5 {
+    background-color: #fff;
+    padding: 2em 3em;
+    margin: 1em; }
+    .table-section .col-md-5 .tos {
+      font-size: 12px; }
+    .table-section .col-md-5 .cards-image {
+      text-align: left;
+      padding: 1em; }
+
+/*# sourceMappingURL=checkout.css.map */

@@ -1,0 +1,34 @@
+@import "variables.scss";
+
+body {
+  h1 {
+    font-family: 'Black Ops One', cursive;
+  }
+
+  h3, li, p, strong, input, select, a, button {
+    font-family: 'Contrail One', cursive;
+  }
+
+
+  button.btn {
+    background-color: $button-color;
+    color: $button-text;
+    padding: 1em 4em;
+    font-size: 2em;
+    transition: .5s;
+
+    &:hover {
+      background-color: $button-color-dark;
+      transition: .5s;
+      color: $button-text;
+    }
+  }
+
+  footer {
+    padding: 1em 0;
+
+    .footer-company-motto,.footer-links, .footer-company-name {
+      text-align: center;
+    }
+  } // footer
+} // body

@@ -1,0 +1,30 @@
+@import "variables.scss";
+
+header {
+  text-align: left;
+  background-color: $background-1;
+
+  img {
+    width: 100%;
+    padding: 3em 0;
+  }
+}
+
+.table-section {
+  background-color: $background-5;
+
+  .col-md-5 {
+    background-color: $background-3;
+    padding: 2em 3em;
+    margin: 1em;
+
+    .tos {
+      font-size: 12px;
+    }
+
+    .cards-image {
+      text-align: left;
+      padding: 1em;
+    }
+  }
+}

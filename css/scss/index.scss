@@ -1,0 +1,158 @@
+@import "variables.scss";
+
+body {
+  header {
+    background-color: $background-1;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h1, li {
+      color: $header-bullets;
+      list-style-type: disc;
+      padding: 1.25em;
+      transition: .5s;
+    }
+
+    h3 {
+      color: $button-color;
+      margin: 1em 0px;
+      font-size: 2em;
+    }
+
+    ul {
+      padding: 5em 4em;
+    }
+
+    li {
+      font-size: 1.5em;
+    }
+
+    input, select {
+      margin: 1em 0;
+    }
+
+    form {
+      font-size: 12px;
+    }
+
+    // Form field in header
+    .col-md-5 {
+      background-color: $background-2;
+      padding: 4em;
+      margin: 6em 0;
+      transition: 1s;
+      animation-delay: 1.25s;
+
+      .checkbox input[type=checkbox] {
+        margin-right: 1em;
+        margin-left: 0;
+        position: relative;
+      }
+    }
+
+    // Left side of header, the title and bullets
+    .col-md-7 {
+      padding: 6em 0;
+
+      li {
+        animation-delay: .3s;
+        &:first-of-type {
+          animation-delay: .15s;
+        }
+        &:last-of-type {
+          animation-delay: .45s;
+        }
+      }
+      img {
+        animation-delay: .75s;
+
+        &:first-of-type {
+          animation-delay: .01s;
+        }
+      }
+    }
+  }
+
+  // After the header / form field section
+  .first_section {
+    text-align: center;
+    margin: 2.5em 0;
+    background-color: $background-3;
+
+    ul, li {
+      display: inline-block;
+    }
+
+    li {
+      &:first-of-type {
+        animation-delay: 1s;
+      }
+
+      &:nth-child(2) {
+        animation-delay: 1.5s;
+      }
+
+      &:last-of-type {
+        animation-delay: 2s;
+      }
+    }
+
+    i {
+      padding: 1em;
+      vertical-align: middle;
+      font-size: 6em;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+
+    &:before {
+      content: "";
+      top: 0;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      border: 40px solid;
+      border-color: $background-1 transparent transparent;
+    }
+  } //.first_section
+
+  // Second section (second CTA) styling
+  .second_section {
+    background-color: $background-4;
+    color: $header-bullets;
+
+    strong {
+      color: $header-bullets;
+      font-size: 1.5em;
+    }
+
+    button.btn {
+      margin: 2em;
+    }
+
+    .col-md-6 {
+      img {
+        width: 100%;
+        margin: 3em 0;
+      }
+
+      &:last-of-type {
+        text-align: right;
+        padding: 5em;
+      }
+    }
+
+    &:before {
+      content: "";
+      margin: 0 auto;
+      border: 40px solid;
+      border-color: $background-3 transparent transparent;
+    }
+  } //.second_section
+
+  footer {
+    padding: 1em 0;
+  } // footer
+} // body

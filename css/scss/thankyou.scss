@@ -1,0 +1,43 @@
+@import "variables.scss";
+
+header {
+  text-align: left;
+  background-color: $background-1;
+
+  img {
+    width: 100%;
+    padding: 3em 0;
+  }
+}
+
+section {
+  background-color: $background-5;
+
+  .col-md-8, .col-md-12 {
+    padding: 3em 0;
+    font-size: 1.5em;
+
+    strong {
+      text-transform: uppercase;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding: 2em 0;
+    }
+
+    .order-total {
+      text-align: right;
+    }
+  }
+
+  .col-md-8 {
+    background-color: $background-3;
+    padding: 3em;
+    margin-bottom: 4em;
+  }
+}
+
+footer {
+  padding: 1em 0;
+} // footer

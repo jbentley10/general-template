@@ -1,0 +1,92 @@
+body header {
+  background-color: #a4c6a1;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  body header h1, body header li {
+    color: #fff;
+    list-style-type: disc;
+    padding: 1.25em;
+    transition: .5s; }
+  body header h3 {
+    color: #fa8a4a;
+    margin: 1em 0px;
+    font-size: 2em; }
+  body header ul {
+    padding: 5em 4em; }
+  body header li {
+    font-size: 1.5em; }
+  body header input, body header select {
+    margin: 1em 0; }
+  body header form {
+    font-size: 12px; }
+  body header .col-md-5 {
+    background-color: #fde0b4;
+    padding: 4em;
+    margin: 6em 0;
+    transition: 1s;
+    animation-delay: 1.25s; }
+    body header .col-md-5 .checkbox input[type=checkbox] {
+      margin-right: 1em;
+      margin-left: 0;
+      position: relative; }
+  body header .col-md-7 {
+    padding: 6em 0; }
+    body header .col-md-7 li {
+      animation-delay: .3s; }
+      body header .col-md-7 li:first-of-type {
+        animation-delay: .15s; }
+      body header .col-md-7 li:last-of-type {
+        animation-delay: .45s; }
+    body header .col-md-7 img {
+      animation-delay: .75s; }
+      body header .col-md-7 img:first-of-type {
+        animation-delay: .01s; }
+body .first_section {
+  text-align: center;
+  margin: 2.5em 0;
+  background-color: #fff; }
+  body .first_section ul, body .first_section li {
+    display: inline-block; }
+  body .first_section li:first-of-type {
+    animation-delay: 1s; }
+  body .first_section li:nth-child(2) {
+    animation-delay: 1.5s; }
+  body .first_section li:last-of-type {
+    animation-delay: 2s; }
+  body .first_section i {
+    padding: 1em;
+    vertical-align: middle;
+    font-size: 6em; }
+  body .first_section p {
+    font-size: 1.5em; }
+  body .first_section:before {
+    content: "";
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border: 40px solid;
+    border-color: #a4c6a1 transparent transparent; }
+body .second_section {
+  background-color: #5E8870;
+  color: #fff; }
+  body .second_section strong {
+    color: #fff;
+    font-size: 1.5em; }
+  body .second_section button.btn {
+    margin: 2em; }
+  body .second_section .col-md-6 img {
+    width: 100%;
+    margin: 3em 0; }
+  body .second_section .col-md-6:last-of-type {
+    text-align: right;
+    padding: 5em; }
+  body .second_section:before {
+    content: "";
+    margin: 0 auto;
+    border: 40px solid;
+    border-color: #fff transparent transparent; }
+body footer {
+  padding: 1em 0; }
+
+/*# sourceMappingURL=index.css.map */

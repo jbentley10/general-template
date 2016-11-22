@@ -1,0 +1,83 @@
+body {
+    color:#757B7D ;
+}
+
+.clear{
+    clear:both;
+}
+
+.btn-rushMyOrder {
+    width: 200px;
+    height: 50px;
+    background-color: #05225E;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border:1px solid #757B7D;
+}
+
+    .btn-rushMyOrder:hover {
+        background-color: white;
+        color: #05225E;
+    }
+
+.error {
+    color: Red;
+    font-size: 12px;
+}
+
+.wrapper {
+    margin: 50px auto;
+    width: 1200px;
+}
+
+.packages {
+    float: left;
+    width: 600px;
+}
+
+    .packages .package {
+        border: 2px solid gray;
+        margin-top: 20px;
+    }
+
+    .packages .selected {
+        border: 2px solid black;
+    }
+
+    .packages .package .package-header {
+        height: 30px;
+        padding: 5px;
+        background-color: #05225E;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .packages .selected .package-header
+    {
+        background-color: White;
+        color: #05225E;
+    }
+
+    .packages .package .package-Info {
+        min-height: 100px;
+        padding: 10px;
+    }
+
+    .packages .selected .package-Info {
+        background-color: #05225E;
+        color:white;
+    }
+
+#thankyou h1 {
+    text-align: center;
+}
+
+#thankyou .packages {
+    float: none;
+    margin: 0 auto;
+}
+
+#thankyou table {
+    width: 100%;
+}

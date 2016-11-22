@@ -1,0 +1,20 @@
+body h1 {
+  font-family: 'Black Ops One', cursive; }
+body h3, body li, body p, body strong, body input, body select, body a, body button {
+  font-family: 'Contrail One', cursive; }
+body button.btn {
+  background-color: #fa8a4a;
+  color: #fff;
+  padding: 1em 4em;
+  font-size: 2em;
+  transition: .5s; }
+  body button.btn:hover {
+    background-color: #a44a17;
+    transition: .5s;
+    color: #fff; }
+body footer {
+  padding: 1em 0; }
+  body footer .footer-company-motto, body footer .footer-links, body footer .footer-company-name {
+    text-align: center; }
+
+/*# sourceMappingURL=styles.css.map */

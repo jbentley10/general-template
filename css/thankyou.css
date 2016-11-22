@@ -1,0 +1,25 @@
+header {
+  text-align: left;
+  background-color: #a4c6a1; }
+  header img {
+    width: 100%;
+    padding: 3em 0; }
+
+section {
+  background-color: #f9f9f9; }
+  section .col-md-8, section .col-md-12 {
+    padding: 3em 0;
+    font-size: 1.5em; }
+    section .col-md-8 strong, section .col-md-12 strong {
+      text-transform: uppercase; }
+    section .col-md-8 ul, section .col-md-12 ul {
+      list-style-type: disc;
+      padding: 2em 0; }
+    section .col-md-8 .order-total, section .col-md-12 .order-total {
+      text-align: right; }
+  section .col-md-8 {
+    background-color: #fff;
+    padding: 3em;
+    margin-bottom: 4em; }
+
+/*# sourceMappingURL=thankyou.css.map */
